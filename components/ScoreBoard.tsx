@@ -1,9 +1,9 @@
-type FeatureProps = {
+type ScoreBoardProps = {
   title: string;
   children: React.ReactNode;
 };
 
-export const Feature: React.FC<FeatureProps> = ({ title, children }) => {
+export const ScoreBoard: React.FC<ScoreBoardProps> = ({ title, children }) => {
   return (
     <div className='overflow-hidden rounded-xl border bg-white/5 border-t3-purple-300/50 min-w-[24rem] min-h-[20rem]'>
       <div className='flex justify-center items-center p-4 bg-white/20'>
